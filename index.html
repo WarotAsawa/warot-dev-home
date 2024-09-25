@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="./icons/home.svg">
   <!-- PAGE settings -->
-  <link rel="icon" href="./assets/icons/aws.ico">
   <title>WAROT .DEV</title>
   <meta name="description" content="My own landing page for personal use.">
   <meta name="keywords" content="Warot Asawakowitkorn. WAROT.DEV">
@@ -511,7 +511,7 @@
                     <a class="nav-link" href="https://lab.warot.dev/"><b>LAB</b></a>
                   </li>
                   <li class="nav-item"><a class="nav-link" href="https://shorten.warot.dev/"><b>Short URL</b></a></li>
-                  <li class="nav-item"><a class="nav-link" href="https://photo.warot.dev/"><b>Photo Gallery</b></a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://photo.warot.dev/"><b>S3 Gallery</b></a></li>
                   <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Demo Catalog&nbsp;</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <a class="dropdown-item" href="https://km-chat.warot.dev/">Bedrock KM Chat</a> <a class="dropdown-item" href="https://sql-chat.warot.dev/">Bedrock SQL Chat</a> <a class="dropdown-item" href="https://outpainter.warot.dev/">Bedrock Outpainter</a> <a class="dropdown-item" href="https://dify.warot.dev">Dify.AI</a></div>
                   </li>
@@ -544,6 +544,22 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous" style=""></script>
+  <script>
+    window.difyChatbotConfig = {
+     token: 'RGo9GeO6PCVofLgY',
+     baseUrl: 'http://dify.warot.dev'
+    }
+   </script>
+   <script
+    src="http://dify.warot.dev/embed.min.js"
+    id="RGo9GeO6PCVofLgY"
+    defer>
+   </script>
+   <style>
+     #dify-chatbot-bubble-button {
+       background-color: #1C64F2 !important;
+     }
+   </style>
 </body>
 
 </html>
